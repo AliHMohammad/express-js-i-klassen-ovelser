@@ -4,6 +4,8 @@ import { todos } from "./data.js";
 const app = express();
 const port = 4000;
 
+// Øvelser i klassen
+
 app.use(express.json());
 
 app.listen(port, () => {
